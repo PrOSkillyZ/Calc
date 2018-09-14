@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pa.app.AppTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="pa.app.AppTest" time="0.033" tests="5" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
     <property name="java.vm.version" value="25.181-b13"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\java\wrksp_EclipsePhoton\pa-app"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\java\calc"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\java\wrksp_EclipsePhoton\pa-app"/>
+    <property name="user.dir" value="C:\java\calc"/>
     <property name="java.runtime.version" value="1.8.0_181-b13"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Users\User\Desktop\maven\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;E:\app\User\product\12.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\IBM\WebSphere\AppClient\bin;C:\Program Files\IBM\WebSphere\AppClient\java\8.0\jre\bin;C:\Program Files\IBM\WebSphere\AppClient\java\8.0\jre\bin\j9vm;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Users\User\Desktop\maven\apache-maven-3.5.4\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Git\cmd;E:\app\User\product\12.2.0\dbhome_1\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\IBM\WebSphere\AppClient\bin;C:\Program Files\IBM\WebSphere\AppClient\java\8.0\jre\bin;C:\Program Files\IBM\WebSphere\AppClient\java\8.0\jre\bin\j9vm;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Users\User\Desktop\maven\apache-maven-3.5.4\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;."/>
     <property name="maven.conf" value="C:\Users\User\Desktop\maven\apache-maven-3.5.4\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -64,5 +64,21 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testConcat" classname="pa.app.AppTest" time="0"/>
+  <testcase name="testsub" classname="pa.app.AppTest" time="0.005"/>
+  <testcase name="testmulti" classname="pa.app.AppTest" time="0.017">
+    <failure message="expected:&lt;4&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<4> but was:<0>
+	at pa.app.AppTest.testmulti(AppTest.java:48)
+]]></failure>
+    <system-out><![CDATA[@BeforeEach - Runbefore Each method
+]]></system-out>
+  </testcase>
+  <testcase name="testsoma" classname="pa.app.AppTest" time="0.003"/>
+  <testcase name="testdivisao" classname="pa.app.AppTest" time="0.002">
+    <failure message="expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<1> but was:<0>
+	at pa.app.AppTest.testdivisao(AppTest.java:55)
+]]></failure>
+    <system-out><![CDATA[@BeforeEach - Runbefore Each method
+]]></system-out>
+  </testcase>
+  <testcase name="testConcat" classname="pa.app.AppTest" time="0.001"/>
 </testsuite>
