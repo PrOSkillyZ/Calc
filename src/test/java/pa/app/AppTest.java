@@ -52,7 +52,7 @@ public class AppTest
 	void testdivisao() {
 	App ap = new App();
 	int res = ap.sub(2, 2);
-	assertEquals(1, res);
+	assertEquals(0, res);
 }
     
 }
