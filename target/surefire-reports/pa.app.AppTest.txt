@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: pa.app.AppTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec <<< FAILURE! - in pa.app.AppTest
-testdivisao  Time elapsed: 0.016 sec  <<< FAILURE!
-java.lang.AssertionError: expected:<1> but was:<0>
-	at pa.app.AppTest.testdivisao(AppTest.java:55)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec - in pa.app.AppTest
