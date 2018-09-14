@@ -38,14 +38,14 @@ public class AppTest
 	void testsub() {
 	App ap = new App();
 	int res = ap.multi(2, 2);
-	assertEquals(0, res);
+	assertEquals(4, res);
 }
 
 	@Test
 	void testmulti() {
 	App ap = new App();
 	int res = ap.divisao(2, 2);
-	assertEquals(4, res);
+	assertEquals(1, res);
 }
 
 	@Test
